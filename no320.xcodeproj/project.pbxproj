@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		256AA11E1806338400ACAA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA11D1806338400ACAA15 /* Foundation.framework */; };
 		256AA1241806338400ACAA15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 256AA1221806338400ACAA15 /* InfoPlist.strings */; };
+		256AA12D1806339B00ACAA15 /* no320.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA12B1806339B00ACAA15 /* no320.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA12E1806339B00ACAA15 /* no320.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA12C1806339B00ACAA15 /* no320.m */; };
+		256AA131180633CF00ACAA15 /* TestA.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA12F180633CF00ACAA15 /* TestA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA132180633CF00ACAA15 /* TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA130180633CF00ACAA15 /* TestA.m */; };
+		256AA17F180639A900ACAA15 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 256AA17E180639A900ACAA15 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +22,11 @@
 		256AA1211806338400ACAA15 /* no320-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "no320-Info.plist"; sourceTree = "<group>"; };
 		256AA1231806338400ACAA15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		256AA1251806338400ACAA15 /* no320-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "no320-Prefix.pch"; sourceTree = "<group>"; };
+		256AA12B1806339B00ACAA15 /* no320.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = no320.h; sourceTree = "<group>"; };
+		256AA12C1806339B00ACAA15 /* no320.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = no320.m; sourceTree = "<group>"; };
+		256AA12F180633CF00ACAA15 /* TestA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestA.h; sourceTree = "<group>"; };
+		256AA130180633CF00ACAA15 /* TestA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestA.m; sourceTree = "<group>"; };
+		256AA17E180639A900ACAA15 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +44,8 @@
 		256AA10D1806338400ACAA15 = {
 			isa = PBXGroup;
 			children = (
+				256AA17E180639A900ACAA15 /* README.md */,
+				256AA17D1806393700ACAA15 /* src */,
 				256AA11F1806338400ACAA15 /* no320 */,
 				256AA11C1806338400ACAA15 /* Frameworks */,
 				256AA11B1806338400ACAA15 /* Products */,
@@ -60,6 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				256AA1201806338400ACAA15 /* Supporting Files */,
+				256AA12B1806339B00ACAA15 /* no320.h */,
+				256AA12C1806339B00ACAA15 /* no320.m */,
+				256AA12F180633CF00ACAA15 /* TestA.h */,
+				256AA130180633CF00ACAA15 /* TestA.m */,
 			);
 			path = no320;
 			sourceTree = "<group>";
@@ -74,6 +90,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		256AA17D1806393700ACAA15 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -81,6 +104,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256AA12D1806339B00ACAA15 /* no320.h in Headers */,
+				256AA131180633CF00ACAA15 /* TestA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				256AA1241806338400ACAA15 /* InfoPlist.strings in Resources */,
+				256AA17F180639A900ACAA15 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256AA12E1806339B00ACAA15 /* no320.m in Sources */,
+				256AA132180633CF00ACAA15 /* TestA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +347,7 @@
 				256AA12A1806338400ACAA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
