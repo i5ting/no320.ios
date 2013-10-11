@@ -24,7 +24,55 @@
 		256AA1CC18063D8D00ACAA15 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA1C118063D8D00ACAA15 /* FMDatabaseQueue.m */; };
 		256AA1CE18063D8D00ACAA15 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA1C318063D8D00ACAA15 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		256AA1CF18063D8D00ACAA15 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA1C418063D8D00ACAA15 /* FMResultSet.m */; };
+		256AA26918065AD300ACAA15 /* no320_db_base_table_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA26718065AD200ACAA15 /* no320_db_base_table_model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA26A18065AD300ACAA15 /* no320_db_base_table_model.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA26818065AD300ACAA15 /* no320_db_base_table_model.m */; };
+		256AA26D18065B5600ACAA15 /* no320_db_base_context.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA26B18065B5600ACAA15 /* no320_db_base_context.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA26E18065B5600ACAA15 /* no320_db_base_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA26C18065B5600ACAA15 /* no320_db_base_context.m */; };
+		256AA27118065D5600ACAA15 /* SQLiteOpenHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA26F18065D5600ACAA15 /* SQLiteOpenHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA27218065D5600ACAA15 /* SQLiteOpenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA27018065D5600ACAA15 /* SQLiteOpenHelper.m */; };
+		256AA2871807434300ACAA15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2861807434300ACAA15 /* UIKit.framework */; };
+		256AA2881807434300ACAA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA11D1806338400ACAA15 /* Foundation.framework */; };
+		256AA28A1807434300ACAA15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2891807434300ACAA15 /* CoreGraphics.framework */; };
+		256AA2901807434300ACAA15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 256AA28E1807434300ACAA15 /* InfoPlist.strings */; };
+		256AA2921807434300ACAA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA2911807434300ACAA15 /* main.m */; };
+		256AA2981807434400ACAA15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 256AA2971807434400ACAA15 /* Default.png */; };
+		256AA29A1807434400ACAA15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256AA2991807434400ACAA15 /* Default@2x.png */; };
+		256AA29C1807434400ACAA15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256AA29B1807434400ACAA15 /* Default-568h@2x.png */; };
+		256AA2A21807436900ACAA15 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2A11807436900ACAA15 /* GHUnitIOS.framework */; };
+		256AA2A41807445300ACAA15 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2A31807445300ACAA15 /* QuartzCore.framework */; };
+		256AA2AD1807447E00ACAA15 /* DbTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA2A81807447E00ACAA15 /* DbTest.m */; };
+		256AA2AE1807447E00ACAA15 /* SQLiteDatabaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA2AA1807447E00ACAA15 /* SQLiteDatabaseTest.m */; };
+		256AA2AF1807447E00ACAA15 /* TD.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA2AC1807447E00ACAA15 /* TD.m */; };
+		256AA2B21807448A00ACAA15 /* no320.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA11A1806338400ACAA15 /* no320.framework */; };
+		256AA2B4180744C000ACAA15 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2B3180744C000ACAA15 /* libsqlite3.dylib */; };
+		256AA2B818074A2100ACAA15 /* ios-file.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA2B618074A2100ACAA15 /* ios-file.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA2B918074A2100ACAA15 /* ios-file.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA2B718074A2100ACAA15 /* ios-file.m */; };
+		256AA2BC18074A3800ACAA15 /* no320db.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA2BB18074A3800ACAA15 /* no320db.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA2C01807510C00ACAA15 /* FileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA2BF1807510C00ACAA15 /* FileTest.m */; };
+		256AA2ED180759E900ACAA15 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2EC180759E800ACAA15 /* SystemConfiguration.framework */; };
+		256AA2EF180759FC00ACAA15 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2EE180759FC00ACAA15 /* CFNetwork.framework */; };
+		256AA2F118075A1700ACAA15 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2F018075A1600ACAA15 /* MobileCoreServices.framework */; };
+		256AA2F218075A2400ACAA15 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2A31807445300ACAA15 /* QuartzCore.framework */; };
+		256AA2F418075A2E00ACAA15 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2F318075A2E00ACAA15 /* Security.framework */; };
+		256AA2F518075A3800ACAA15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2861807434300ACAA15 /* UIKit.framework */; };
+		256AA2F618075A4100ACAA15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2891807434300ACAA15 /* CoreGraphics.framework */; };
+		256AA2F818075B1D00ACAA15 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256AA2F718075B1C00ACAA15 /* CoreFoundation.framework */; };
+		256AA3011807623800ACAA15 /* DeviceMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA2FF1807623800ACAA15 /* DeviceMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA306180763F300ACAA15 /* cstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA304180763F300ACAA15 /* cstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA307180763F300ACAA15 /* cstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA305180763F300ACAA15 /* cstring.m */; };
+		256AA30A180773CC00ACAA15 /* NSOpenDir.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AA308180773CC00ACAA15 /* NSOpenDir.h */; };
+		256AA30B180773CC00ACAA15 /* NSOpenDir.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AA309180773CC00ACAA15 /* NSOpenDir.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		256AA2B01807448700ACAA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256AA10E1806338400ACAA15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256AA1191806338400ACAA15;
+			remoteInfo = no320;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		256AA11A1806338400ACAA15 /* no320.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = no320.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +95,46 @@
 		256AA1C118063D8D00ACAA15 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/src/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		256AA1C318063D8D00ACAA15 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/FMResultSet.h; sourceTree = "<group>"; };
 		256AA1C418063D8D00ACAA15 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/FMResultSet.m; sourceTree = "<group>"; };
+		256AA26718065AD200ACAA15 /* no320_db_base_table_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = no320_db_base_table_model.h; sourceTree = "<group>"; };
+		256AA26818065AD300ACAA15 /* no320_db_base_table_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = no320_db_base_table_model.m; sourceTree = "<group>"; };
+		256AA26B18065B5600ACAA15 /* no320_db_base_context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = no320_db_base_context.h; sourceTree = "<group>"; };
+		256AA26C18065B5600ACAA15 /* no320_db_base_context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = no320_db_base_context.m; sourceTree = "<group>"; };
+		256AA26F18065D5600ACAA15 /* SQLiteOpenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteOpenHelper.h; sourceTree = "<group>"; };
+		256AA27018065D5600ACAA15 /* SQLiteOpenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteOpenHelper.m; sourceTree = "<group>"; };
+		256AA2851807434300ACAA15 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256AA2861807434300ACAA15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		256AA2891807434300ACAA15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		256AA28D1807434300ACAA15 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		256AA28F1807434300ACAA15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		256AA2911807434300ACAA15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		256AA2931807434300ACAA15 /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
+		256AA2971807434400ACAA15 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		256AA2991807434400ACAA15 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		256AA29B1807434400ACAA15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		256AA2A11807436900ACAA15 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		256AA2A31807445300ACAA15 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		256AA2A71807447E00ACAA15 /* DbTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbTest.h; sourceTree = "<group>"; };
+		256AA2A81807447E00ACAA15 /* DbTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbTest.m; sourceTree = "<group>"; };
+		256AA2A91807447E00ACAA15 /* SQLiteDatabaseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteDatabaseTest.h; sourceTree = "<group>"; };
+		256AA2AA1807447E00ACAA15 /* SQLiteDatabaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteDatabaseTest.m; sourceTree = "<group>"; };
+		256AA2AB1807447E00ACAA15 /* TD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TD.h; sourceTree = "<group>"; };
+		256AA2AC1807447E00ACAA15 /* TD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TD.m; sourceTree = "<group>"; };
+		256AA2B3180744C000ACAA15 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		256AA2B618074A2100ACAA15 /* ios-file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-file.h"; sourceTree = "<group>"; };
+		256AA2B718074A2100ACAA15 /* ios-file.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ios-file.m"; sourceTree = "<group>"; };
+		256AA2BB18074A3800ACAA15 /* no320db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = no320db.h; sourceTree = "<group>"; };
+		256AA2BE1807510C00ACAA15 /* FileTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTest.h; sourceTree = "<group>"; };
+		256AA2BF1807510C00ACAA15 /* FileTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTest.m; sourceTree = "<group>"; };
+		256AA2EC180759E800ACAA15 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		256AA2EE180759FC00ACAA15 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		256AA2F018075A1600ACAA15 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		256AA2F318075A2E00ACAA15 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		256AA2F718075B1C00ACAA15 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		256AA2FF1807623800ACAA15 /* DeviceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMacro.h; sourceTree = "<group>"; };
+		256AA304180763F300ACAA15 /* cstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cstring.h; sourceTree = "<group>"; };
+		256AA305180763F300ACAA15 /* cstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cstring.m; sourceTree = "<group>"; };
+		256AA308180773CC00ACAA15 /* NSOpenDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOpenDir.h; sourceTree = "<group>"; };
+		256AA309180773CC00ACAA15 /* NSOpenDir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOpenDir.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +142,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256AA2F818075B1D00ACAA15 /* CoreFoundation.framework in Frameworks */,
+				256AA2F618075A4100ACAA15 /* CoreGraphics.framework in Frameworks */,
+				256AA2F518075A3800ACAA15 /* UIKit.framework in Frameworks */,
+				256AA2F418075A2E00ACAA15 /* Security.framework in Frameworks */,
+				256AA2F218075A2400ACAA15 /* QuartzCore.framework in Frameworks */,
+				256AA2F118075A1700ACAA15 /* MobileCoreServices.framework in Frameworks */,
+				256AA2EF180759FC00ACAA15 /* CFNetwork.framework in Frameworks */,
+				256AA2ED180759E900ACAA15 /* SystemConfiguration.framework in Frameworks */,
 				256AA11E1806338400ACAA15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256AA2821807434300ACAA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256AA2B4180744C000ACAA15 /* libsqlite3.dylib in Frameworks */,
+				256AA2B21807448A00ACAA15 /* no320.framework in Frameworks */,
+				256AA2A41807445300ACAA15 /* QuartzCore.framework in Frameworks */,
+				256AA2871807434300ACAA15 /* UIKit.framework in Frameworks */,
+				256AA2881807434300ACAA15 /* Foundation.framework in Frameworks */,
+				256AA28A1807434300ACAA15 /* CoreGraphics.framework in Frameworks */,
+				256AA2A21807436900ACAA15 /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,11 +174,14 @@
 		256AA10D1806338400ACAA15 = {
 			isa = PBXGroup;
 			children = (
+				256AA2F718075B1C00ACAA15 /* CoreFoundation.framework */,
+				256AA2F318075A2E00ACAA15 /* Security.framework */,
+				256AA2F018075A1600ACAA15 /* MobileCoreServices.framework */,
+				256AA2EE180759FC00ACAA15 /* CFNetwork.framework */,
+				256AA2EC180759E800ACAA15 /* SystemConfiguration.framework */,
 				256AA17E180639A900ACAA15 /* README.md */,
-				256AA18218063D6D00ACAA15 /* vendor */,
-				256AA17D1806393700ACAA15 /* src */,
 				256AA11F1806338400ACAA15 /* no320 */,
-				256AA11C1806338400ACAA15 /* Frameworks */,
+				256AA28B1807434300ACAA15 /* Test */,
 				256AA11B1806338400ACAA15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				256AA11A1806338400ACAA15 /* no320.framework */,
+				256AA2851807434300ACAA15 /* Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,14 +198,20 @@
 		256AA11C1806338400ACAA15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				256AA2B3180744C000ACAA15 /* libsqlite3.dylib */,
+				256AA2A31807445300ACAA15 /* QuartzCore.framework */,
 				256AA11D1806338400ACAA15 /* Foundation.framework */,
+				256AA2861807434300ACAA15 /* UIKit.framework */,
+				256AA2891807434300ACAA15 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		256AA11F1806338400ACAA15 /* no320 */ = {
 			isa = PBXGroup;
 			children = (
+				256AA17D1806393700ACAA15 /* src */,
 				256AA1201806338400ACAA15 /* Supporting Files */,
 				256AA12B1806339B00ACAA15 /* no320.h */,
 				256AA12C1806339B00ACAA15 /* no320.m */,
@@ -104,6 +224,8 @@
 		256AA1201806338400ACAA15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				256AA11C1806338400ACAA15 /* Frameworks */,
+				256AA18218063D6D00ACAA15 /* vendor */,
 				256AA1211806338400ACAA15 /* no320-Info.plist */,
 				256AA1221806338400ACAA15 /* InfoPlist.strings */,
 				256AA1251806338400ACAA15 /* no320-Prefix.pch */,
@@ -114,8 +236,14 @@
 		256AA17D1806393700ACAA15 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				256AA303180763D900ACAA15 /* c */,
+				256AA2C11807576500ACAA15 /* utils */,
+				256AA2BA18074A3800ACAA15 /* head */,
+				256AA2B518074A2100ACAA15 /* file */,
+				256AA1D01806435700ACAA15 /* db */,
 			);
-			path = src;
+			name = src;
+			path = ../src;
 			sourceTree = "<group>";
 		};
 		256AA18218063D6D00ACAA15 /* vendor */ = {
@@ -123,7 +251,8 @@
 			children = (
 				256AA1B918063D7F00ACAA15 /* fmdb */,
 			);
-			path = vendor;
+			name = vendor;
+			path = ../vendor;
 			sourceTree = "<group>";
 		};
 		256AA1B918063D7F00ACAA15 /* fmdb */ = {
@@ -143,6 +272,110 @@
 			name = fmdb;
 			sourceTree = "<group>";
 		};
+		256AA1D01806435700ACAA15 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				256AA26F18065D5600ACAA15 /* SQLiteOpenHelper.h */,
+				256AA27018065D5600ACAA15 /* SQLiteOpenHelper.m */,
+				256AA26B18065B5600ACAA15 /* no320_db_base_context.h */,
+				256AA26C18065B5600ACAA15 /* no320_db_base_context.m */,
+				256AA26718065AD200ACAA15 /* no320_db_base_table_model.h */,
+				256AA26818065AD300ACAA15 /* no320_db_base_table_model.m */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		256AA28B1807434300ACAA15 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2A51807447E00ACAA15 /* src */,
+				256AA28C1807434300ACAA15 /* Supporting Files */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		256AA28C1807434300ACAA15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2A01807436900ACAA15 /* vendor */,
+				256AA28D1807434300ACAA15 /* Test-Info.plist */,
+				256AA28E1807434300ACAA15 /* InfoPlist.strings */,
+				256AA2911807434300ACAA15 /* main.m */,
+				256AA2931807434300ACAA15 /* Test-Prefix.pch */,
+				256AA2971807434400ACAA15 /* Default.png */,
+				256AA2991807434400ACAA15 /* Default@2x.png */,
+				256AA29B1807434400ACAA15 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		256AA2A01807436900ACAA15 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2A11807436900ACAA15 /* GHUnitIOS.framework */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		256AA2A51807447E00ACAA15 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2A61807447E00ACAA15 /* db */,
+				256AA2AB1807447E00ACAA15 /* TD.h */,
+				256AA2AC1807447E00ACAA15 /* TD.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		256AA2A61807447E00ACAA15 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2A71807447E00ACAA15 /* DbTest.h */,
+				256AA2A81807447E00ACAA15 /* DbTest.m */,
+				256AA2A91807447E00ACAA15 /* SQLiteDatabaseTest.h */,
+				256AA2AA1807447E00ACAA15 /* SQLiteDatabaseTest.m */,
+				256AA2BE1807510C00ACAA15 /* FileTest.h */,
+				256AA2BF1807510C00ACAA15 /* FileTest.m */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		256AA2B518074A2100ACAA15 /* file */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2B618074A2100ACAA15 /* ios-file.h */,
+				256AA2B718074A2100ACAA15 /* ios-file.m */,
+				256AA308180773CC00ACAA15 /* NSOpenDir.h */,
+				256AA309180773CC00ACAA15 /* NSOpenDir.m */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+		256AA2BA18074A3800ACAA15 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2BB18074A3800ACAA15 /* no320db.h */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		256AA2C11807576500ACAA15 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				256AA2FF1807623800ACAA15 /* DeviceMacro.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		256AA303180763D900ACAA15 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				256AA304180763F300ACAA15 /* cstring.h */,
+				256AA305180763F300ACAA15 /* cstring.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -157,6 +390,14 @@
 				256AA1C918063D8D00ACAA15 /* FMDatabasePool.h in Headers */,
 				256AA1CB18063D8D00ACAA15 /* FMDatabaseQueue.h in Headers */,
 				256AA1CE18063D8D00ACAA15 /* FMResultSet.h in Headers */,
+				256AA26918065AD300ACAA15 /* no320_db_base_table_model.h in Headers */,
+				256AA26D18065B5600ACAA15 /* no320_db_base_context.h in Headers */,
+				256AA27118065D5600ACAA15 /* SQLiteOpenHelper.h in Headers */,
+				256AA2B818074A2100ACAA15 /* ios-file.h in Headers */,
+				256AA2BC18074A3800ACAA15 /* no320db.h in Headers */,
+				256AA3011807623800ACAA15 /* DeviceMacro.h in Headers */,
+				256AA306180763F300ACAA15 /* cstring.h in Headers */,
+				256AA30A180773CC00ACAA15 /* NSOpenDir.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +425,24 @@
 			productReference = 256AA11A1806338400ACAA15 /* no320.framework */;
 			productType = "com.apple.product-type.framework.static";
 		};
+		256AA2841807434300ACAA15 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256AA29F1807434400ACAA15 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				256AA2811807434300ACAA15 /* Sources */,
+				256AA2821807434300ACAA15 /* Frameworks */,
+				256AA2831807434300ACAA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256AA2B11807448700ACAA15 /* PBXTargetDependency */,
+			);
+			name = Test;
+			productName = Test;
+			productReference = 256AA2851807434300ACAA15 /* Test.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +465,7 @@
 			projectRoot = "";
 			targets = (
 				256AA1191806338400ACAA15 /* no320 */,
+				256AA2841807434300ACAA15 /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +477,17 @@
 			files = (
 				256AA1241806338400ACAA15 /* InfoPlist.strings in Resources */,
 				256AA17F180639A900ACAA15 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256AA2831807434300ACAA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256AA2901807434300ACAA15 /* InfoPlist.strings in Resources */,
+				256AA2981807434400ACAA15 /* Default.png in Resources */,
+				256AA29A1807434400ACAA15 /* Default@2x.png in Resources */,
+				256AA29C1807434400ACAA15 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,16 +547,50 @@
 				256AA1CA18063D8D00ACAA15 /* FMDatabasePool.m in Sources */,
 				256AA1CC18063D8D00ACAA15 /* FMDatabaseQueue.m in Sources */,
 				256AA1CF18063D8D00ACAA15 /* FMResultSet.m in Sources */,
+				256AA26A18065AD300ACAA15 /* no320_db_base_table_model.m in Sources */,
+				256AA26E18065B5600ACAA15 /* no320_db_base_context.m in Sources */,
+				256AA27218065D5600ACAA15 /* SQLiteOpenHelper.m in Sources */,
+				256AA2B918074A2100ACAA15 /* ios-file.m in Sources */,
+				256AA307180763F300ACAA15 /* cstring.m in Sources */,
+				256AA30B180773CC00ACAA15 /* NSOpenDir.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256AA2811807434300ACAA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256AA2921807434300ACAA15 /* main.m in Sources */,
+				256AA2AD1807447E00ACAA15 /* DbTest.m in Sources */,
+				256AA2AE1807447E00ACAA15 /* SQLiteDatabaseTest.m in Sources */,
+				256AA2AF1807447E00ACAA15 /* TD.m in Sources */,
+				256AA2C01807510C00ACAA15 /* FileTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256AA2B11807448700ACAA15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256AA1191806338400ACAA15 /* no320 */;
+			targetProxy = 256AA2B01807448700ACAA15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		256AA1221806338400ACAA15 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				256AA1231806338400ACAA15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		256AA28E1807434300ACAA15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256AA28F1807434300ACAA15 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -355,6 +660,10 @@
 				);
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320/no320-Prefix.pch";
@@ -374,6 +683,10 @@
 				);
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320/no320-Prefix.pch";
@@ -381,6 +694,51 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		256AA29D1807434400ACAA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yang Li (ZJDM452LRX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Test/vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
+				INFOPLIST_FILE = "Test/Test-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "12C4051B-A019-4F55-833A-ECC58321B836";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		256AA29E1807434400ACAA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yang Li (ZJDM452LRX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Test/vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
+				INFOPLIST_FILE = "Test/Test-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "12C4051B-A019-4F55-833A-ECC58321B836";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -404,6 +762,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		256AA29F1807434400ACAA15 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256AA29D1807434400ACAA15 /* Debug */,
+				256AA29E1807434400ACAA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

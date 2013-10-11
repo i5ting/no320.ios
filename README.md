@@ -33,34 +33,21 @@ g是get的简便方法，直接输入url地址即可
 ## Test
 
  
-ruby -Ilib bin/bee_api -g http://top.baidu.com/news/pagination\?pageno\=1
+### File 
 
-ruby -Ilib bin/bee_api -f t1.json
+#### NSOpenDir
 
+    /**
+     * open application directory with path
+     */
+    void NSOpenDir(NSString *path);
 
-	{
-	    "url": "http://platform.baidu.com.cn/kzx/userLoginNew",
-	    "params": {
-	        "app_key": "3672927202",
-	        "client_id": "809359998",
-	        "client_secret": "16eb6b6412f503c2bb90803fe256a57b",
-	        "format": "json",
-	        "grant_type": "password",
-	        "identity": "86c26f7638fce2966ffee46bbb112d91",
-	        "password": "＊＊＊＊＊＊",
-	        "username": "shiren1118"
-	    },
-	    "method": "post"
-	}
-	
-ruby -Ilib bin/bee_api -f t2.json
+    /**
+     * open application home directory 
+     */
+    void NSOpenHome();
 
-	{
-	    "url": "http://top.baidu.com/news/pagination\?pageno\=1",
-	    "params": {
-	    },
-	    "method": "get"
-	}
+ 
 	
 
 ## Contributing
@@ -76,4 +63,9 @@ ruby -Ilib bin/bee_api -f t2.json
 ## 欢迎fork和反馈
 
 shiren1118@126.com
+
+
+## 参考
+
+- [gh-unit guide_install_ios_4](http://gabriel.github.io/gh-unit/docs/appledoc_include/guide_install_ios_4.html)
 
